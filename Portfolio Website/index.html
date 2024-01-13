@@ -8,6 +8,7 @@
 </head>
 <body>
     <div id="wrapper">
+        <!-- Navbar  -->
         <div class="container">
             <div class="navbar">
                 <div class="logo-container">
@@ -22,6 +23,62 @@
                 </div>
             </div>
         </div>
+
+        <!-- Main Section -->
+        <div class="hero-section">
+            <!-- Left Section -->
+            <div class="faded-text">Shivam Thakur</div>
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi!! Shivam Thakur</div>
+                <div class="hero-section-headinghero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    I'm a software developer and here is my Portfolio Website. Here you'll 
+                    learn about my journey as a software developer.
+                </div>
+                
+                <div class="btn-pink" id="btn">Hire me</div>
+            </div>
+            <!-- Right Section -->
+            <div class="hero-section-right">
+                <div class="absolute icons icon-dots">
+                    <img src="./images/User Asset/dots.png" alt="">
+                </div>
+                <div class="absolute icons icon-cube">
+                    <img src="./images/User Asset/cube.png" alt="">
+                </div>
+                <div class="absolute icons icon-circle">
+                    <img src="./images/User Asset/circle.png" alt="">
+                </div>
+                <div class="absolute icons icon-zigzag">
+                    <img src="./images/User Asset/zigzags.png" alt="">
+                </div>
+                <div class="absolute icons icon-plus">
+                    <img src="./images/User Asset/plus.png" alt="">
+                </div>
+                <div class="user-image">
+                    <img src="./images/User Asset/img.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
 </body>
 </html>
