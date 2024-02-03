@@ -80,7 +80,6 @@ a{
     align-items: center;
     margin: 4rem auto;
     padding: 0 1rem;
-    margin-left: 9rem;
     gap: 5rem;
     padding-bottom: 8rem;
 }
@@ -165,8 +164,6 @@ a{
 
 .hero-section-right{
     position: relative;
-    right: 6rem;
-
 }
 
 .absolute{
@@ -280,7 +277,7 @@ a{
 @keyframes zigzagAnimation {
 
     50%{
-        left: 5%;
+        left: 3%;
         top: 2%;
     }
 }
